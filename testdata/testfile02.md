@@ -1,0 +1,4 @@
+{{ range . }}
+- {{ .name }}: {{ .value }}
+{{ end }}
+
